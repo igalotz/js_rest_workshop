@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+        <script type="text/javascript" src="books.js"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+
+
+    <body>
+        <form method="POST" action="/book">
+            <p><label>
+                Tytuł
+                <input id="form-title" name="title" type="text">
+            </label></p>
+        </form>
+        <h1 id="title">Serwer książek</h1>
+        <section id="books-list"></section>
+        <h2>koniec serwera książek</h2>
+
+    </body>
+
+</html>

@@ -1,0 +1,7 @@
+.book-details {
+    display: none;
+    border: 1px solid black;
+    padding: 12px;
+    background-color: #eee;
+    color: #333;
+}
